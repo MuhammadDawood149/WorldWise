@@ -6,6 +6,7 @@ function HomeNav() {
   return (
     <nav className={styles.nav}>
       <Logo />
+
       <ul>
         <li>
           <NavLink to="/product">Product</NavLink>
